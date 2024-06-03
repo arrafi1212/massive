@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import penilianLogo from "../assets/penilian-logo.png";
 
 const Testimonials = () => {
   return (
@@ -6,11 +7,14 @@ const Testimonials = () => {
       <h2>Penilaian Pelanggan</h2>
       <div className="testimonial">
         <img
-          src="./penilian-logo.png"
+          src={penilianLogo}
           alt="Customer Photo"
           className="customer-photo"
         />
-        <p>"Website ini sangat membantu saya untuk mencari kue kering dengan cepat dan efisien tanpa harus pergi ke toko offline."</p>
+        <p>
+          "Website ini sangat membantu saya untuk mencari kue kering dengan
+          cepat dan efisien tanpa harus pergi ke toko offline."
+        </p>
         <p className="customer-name">Nabila</p>
       </div>
     </section>

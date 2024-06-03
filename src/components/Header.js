@@ -1,24 +1,22 @@
 // src/components/Header.js
-import React from 'react';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import '../App.css';
+import React from "react";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "../App.css";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
     <header>
       <nav>
         <div className="logo">
-          <img
-            src="./logo.png"
-            alt="Sweety Pastry"
-          />
+          <img src={logo} alt="Sweety Pastry" />
         </div>
         <ul>
           <li>
             <a href="Beranda">Beranda</a>
           </li>
           <li>
-            <a href="ProductList">Produk</a>
+            <a href="Product">Produk</a>
           </li>
           <li>
             <a href="Hampers">Hampers</a>

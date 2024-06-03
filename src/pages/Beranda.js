@@ -1,12 +1,13 @@
-import React from 'react';
-import '../App.css';
-import Header from '../components/Header';
-import Hero from '../components/Hero';
-import Recommendations from '../components/Recommendations';
-import Hampers from '../components/Hampers';
-import Discount from '../components/Discount';
-import Advantages from '../components/Advantages';
-import Testimonials from '../components/Testimonials';
+import React from "react";
+import "../App.css";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Recommendations from "../components/Recommendations";
+import HampersCP from "../components/HampersCP";
+import Discount from "../components/Discount";
+import Advantages from "../components/Advantages";
+import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
 
 function Beranda() {
   return (
@@ -15,11 +16,12 @@ function Beranda() {
       <main>
         <Hero />
         <Recommendations />
-        <Hampers />
+        <HampersCP />
         <Discount />
         <Advantages />
         <Testimonials />
       </main>
+      <Footer />
     </div>
   );
 }
