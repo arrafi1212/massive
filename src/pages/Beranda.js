@@ -21,6 +21,7 @@ function Beranda() {
         <Advantages />
         <Testimonials />
       </main>
+      <Footer />
     </div>
   );
 }
